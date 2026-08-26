@@ -14,9 +14,8 @@ class Solution(object):
         Time Complexity: O(n)
         Space Complexity: O(n)
         """
-
         seen = {}
-
+        
         for i, num in enumerate(nums):
             needed = target - num
 
