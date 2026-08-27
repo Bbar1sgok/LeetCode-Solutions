@@ -27,7 +27,7 @@ class Solution:
             return result
 
 
-# VERSİON 0.1
+# VERSİON 0.1 !!! Time Limit Exceeded !!!
 
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
