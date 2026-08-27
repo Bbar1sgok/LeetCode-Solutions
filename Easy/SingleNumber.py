@@ -25,3 +25,17 @@ class Solution:
             for num in nums:
                 result ^= num  
             return result
+
+
+# VERSİON 0.1
+
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        
+        for i in range(len(nums)):
+            counter = 0
+            for j in range(len(nums)):
+                if nums[i] == nums[j]:
+                    counter += 1
+            if counter == 1:
+                return nums[i]
